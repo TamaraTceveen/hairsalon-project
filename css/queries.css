@@ -1,7 +1,15 @@
-@medua (min-width: 90.625em) {
+@media (min-width: 90.625em) {
   .hide-mobil {
     display: none;
   }
+  .desctop-hide {
+    display: none;
+  }
+  
+  .desctop-show {
+    display: grid;
+  }
+
 }
 
 
@@ -600,6 +608,10 @@
   }
   .profi-description {
     font-size: 2.5rem;
+  }
+
+  .tablet-swiper-profi {
+    padding-left: 0;
   }
 
   /* gallery html */
